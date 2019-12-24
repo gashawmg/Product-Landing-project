@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Product Landing Page</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="img-container">
+        <img
+          id="header-img"
+          src="https://i.etsystatic.com/18270173/r/il/2decbf/1861966858/il_fullxfull.1861966858_brio.jpg"
+          alt="logo"
+        />
+        <h4>&nbsp;&nbsp;Pure Cotton Clothes</h4>
+      </div>
+
+      <!--Our logo here-->
+      <nav id="nav-bar">
+        <!--Navigation bar here-->
+        <ul>
+          <!--The top right links  here-->
+          <li><a class="nav-link" href="#item1">Products</a></li>
+          <li><a class="nav-link" href="#item2">Prices</a></li>
+          <li><a class="nav-link" href="#item3">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br /><br /><br />
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <h2>We make and sell beautiful traditional dresses</h2>
+      <br />
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Please enter your email "
+        required
+      />
+      <br />
+      <input id="submit" type="submit" value="GET STARTED" />
+    </form>
+    <div class="description-icon">
+      <div class="habesha-kemis">
+        <div class="female-pic">
+          <i class="fa fa-female fa-3x" style="color:orangered"></i>
+        </div>
+        <section class="p-section">
+          <p>
+            The habesha kemis (ሐበሻ habesha, "Ethiopian" ቀሚስ kemis, dress) is the
+            traditional attire of Habesha women. The ankle length dress is
+            usually worn by Ethiopian and Eritrean women at formal events. But
+            it comes in many forms nowadays. It is made of cotton fabric, and
+            typically comes in white, grey or beige shades. Many women also wrap
+            a shawl called a netela around the formal dress
+          </p>
+        </section>
+      </div>
+      <div class="smile">
+        <div class="smile-icon">
+          <i class="fa fa-smile-o fa-2x" style="color:orangered"></i>
+        </div>
+        <section class="smile-description">
+          <p>Our customer survice is very happy to address any questions.</p>
+        </section>
+      </div>
+    </div>
+
+    <div id="watch-video">
+      <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/t7A48mnzPUQ"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <section class="prices">
+      <div class="product" id="item1">
+        <div class="actual-price">Small size</div>
+        <h2>$170</h2>
+        <ol>
+          <li>Short sleeve</li>
+          <li>Less decorated</li>
+          <li>White color</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="item2">
+        <div class="actual-price">medium size</div>
+        <h2>$184</h2>
+        <ol>
+          <li>Long sleeve</li>
+          <li>Medium decoration</li>
+          <li>Light grey color</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="item3">
+        <div class="actual-price">large size</div>
+        <h2>$210</h2>
+        <ol>
+          <li>Long sleeve</li>
+          <li>Very decorated</li>
+          <li>White color</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li>
+          <a href="#"><li>Contact</li></a>
+        </li>
+      </ul>
+      <div class="copy-right">
+        <p>&COPY;Habesha Kemis 2019</p>
+      </div>
+    </footer>
+  </body>
+</html>
